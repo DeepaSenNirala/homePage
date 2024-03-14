@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.banner{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+margin-top: 60px;
+}
+/* .bannerPage{
+ 
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-left: 300px;
+} */
+.bannerPage img{
+  border: 2px solid green;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-left: 300px;
+  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+  1px 2px 4px 0px rgba(0,255,255,0.7),
+  2px 4px 8px 0px rgba(0,255,255,0.7),
+  2px 4px 16px 0px rgba(0,255,255,0.7);
+
+}
+body{
+  background-color: black;
+}
+p{
+  font-size: 32px;
+}
+.checked{
+  color: orange;
+}
+.imageCard{
+width: 100%;
+
+}
+/* .cardCol{
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+            10px 10px  15px rgba(0,255,255,0.7);
+} */
+.imageCard img{
+  height: 150px;
+  width: 250px;
+  margin: auto;
+  
+}
+.navLinkItem{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.navLinkItem:after{
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: rgb(218, 229, 135);
+  position: absolute;
+  top: 10;
+  left: 46;
+  bottom: 15px;
+  transition: 2s;
+}
+.navLinkItem:hover:after{
+width: 5%;
+}
+.paraheadingstyle{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+ color: white;
+}
+.courseItem{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+background-color: black;
+color: white;
+  font-style: normal;
+}
+.courseItem:after{
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: white;
+  position: absolute;
+  top: 50;
+  left: 37%;
+  bottom: 350px;
+  transition: 2s;
+}
+.courseItem:hover:after{
+width: 25%;
+}
+.header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2000;
+}
+.headingItem{
+  background-color: black;
+}
+.userContact{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.testimonialCard{
+ 
+  /* padding: 20px; */
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(44, 4, 200, 0.6);
+   
+}
+.testimonialCard:hover{
+animation-name: grow;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+ 
+.testimonialBody{
+ 
+  /* padding: 20px; */
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(44, 4, 200, 0.6);
+   
+}
+.testimonialBody:hover{
+animation-name: grow;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
